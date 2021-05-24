@@ -1,13 +1,23 @@
 # VShop
 
-Simple e-commerce Web Shop built with [React.js](https://reactjs.org/), [Commerce.js](https://commercejs.com/), Stripe
+Simple e-commerce Web Shop built with [React.js](https://reactjs.org), [Commerce.js](https://commercejs.com) and [Stripe](https://stripe.com)
 
 ## Setup before running the app
 
-1. Register or Login into [Commerce.js](https://commercejs.com/)
+### Commerce.js
+1. Register or Login into [Commerce.js](https://commercejs.com)
 2. Add some products, configure shipping (_Settings_) for your shop
-3. Get you public key (_Developers_) and replace the value of `REACT_APP_CHEC_PUBLIC_KEY` inside `.env` file
+3. Get you public API key of Developers section (_Sandbox Public Key_) and replace the value of `REACT_APP_CHEC_PUBLIC_KEY` inside `.env` file
 
+### Stripe
+
+1. Register or Login into [Stripe](https://stripe.com)
+2. Verify your e-mail address
+3. Get you public API key of Developers section (_Publishable key_) and replace the value of `REACT_APP_STRIPE_PUBLIC_KEY` inside `.env` file
+
+### Commerce.js & Stripe
+1. Settings / Payment gateways (Commerce.js Dashboard) enable Stripe 
+2. Save your Stripe's API keys (_Publishable key, Secret key_)
 
 ### `npm start`
 
