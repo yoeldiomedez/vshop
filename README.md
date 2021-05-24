@@ -16,7 +16,7 @@ Simple e-commerce Web Shop built with [React.js](https://reactjs.org), [Commerce
 3. Get you public API key of Developers section (_Publishable key_) and replace the value of `REACT_APP_STRIPE_PUBLIC_KEY` inside `.env` file
 
 ### Commerce.js & Stripe
-1. Settings / Payment gateways (Commerce.js Dashboard) enable Stripe 
+1. Settings / Payment gateways (_Commerce.js Dashboard_) enable **Stripe**
 2. Save your Stripe's API keys (_Publishable key, Secret key_)
 
 ### `npm start`
