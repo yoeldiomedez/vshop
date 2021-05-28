@@ -1,6 +1,6 @@
 # VShop
 
-Simple e-commerce Web Shop built with [React.js](https://reactjs.org), [Commerce.js](https://commercejs.com) and [Stripe](https://stripe.com)
+Simple e-commerce Web Shop built with [React.js](https://reactjs.org), [Commerce.js](https://commercejs.com) and [Stripe](https://stripe.com) -> [Live Demo](https://wshop.netlify.app)
 
 ## Setup before running the app
 
